@@ -1,2 +1,3 @@
-# compact-knapsack
-We provide the code of the paper ...
+# Compact knapsack Problem
+With Compact knapsack problem we mean the problem of finding integer solutions to a linear system, that satisfy some constraints. Say, $AX=B$ such a system, for some integer matrix $A$ and we want to find an integer solution $X$ that belongs to a special set ${\mathcal{S}}.$ This problem appears to integer-programming problems, where we have to find positive integer solutions, i.e. ${\mathcal{S}}={\mathbb{Z}}_{\ge 0}^n.$ Integer Linear Problems have many practical applications, for instance in ${\it{Capital Budgeting}}, {\it{Warehouse Location}}$ and {\it{Scheduling}}, see \cite[Chapter 9]{ilp}. We provide algorithms for attacking compact knapsack problem. Without the constraints, systems of linear Diophantine equations can be solved in polynomial time. This was showed first time in 1976, using Hermite Normal Form (HNF) of a matrix, by von zur Gathen and Sieveking \cite{von} and Frumken \cite{frumkin}. By Kannan and Bachem was showed a similar result, but using Smith Normal Form (SNF) of a matrix, see \cite{kannan}.
+
