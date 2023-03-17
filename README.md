@@ -8,4 +8,7 @@ In [^1] we were concerned for compact knapsack problems defined by one equation.
 In `main.ipynb` we provide `sagemath code` for attacking compact knapsack by using lattices. In fact we apply the following CVP-attack to it. 
 ![2022-11-16_22-42](https://user-images.githubusercontent.com/7658241/202289817-95c6b93a-ed62-4cda-b7cc-14b180763ba7.png)
 
-A further improvement is provided in `improvement.ipynb`.
+An improvement is provided in `improvement.ipynb`.
+
+Finally, in [arXiv 2303.08973](https://arxiv.org/abs/2303.08973), we provide a three-move id scheme based on compact knapsack problem and also the corresponding digital signature using Fiat-Shamir transform.
+
